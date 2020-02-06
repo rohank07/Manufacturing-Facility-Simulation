@@ -1,4 +1,4 @@
-package Sim;
+package Simulation;
 
 /**
  * The type Component.
@@ -23,7 +23,7 @@ public class Component {
     public void setComponentType(int componentType) {
         if (componentType == 1 || componentType == 2 || componentType == 3)
             this.componentType = componentType;
-        throw new IllegalArgumentException("Sim.Component Type should be 1,2 or 3");
+        throw new IllegalArgumentException("Simulation.Component Type should be 1,2 or 3");
     }
 
     /**

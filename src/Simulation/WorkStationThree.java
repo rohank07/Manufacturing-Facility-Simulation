@@ -1,4 +1,4 @@
-package Sim;
+package Simulation;
 
 /**
  * The type Work station three.
